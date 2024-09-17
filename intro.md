@@ -9,7 +9,6 @@ O uso de LLM e IA generativa no meio do campo científico para conseguir extrair
 
 *Cientistas utilizam LLM para extrair informações de textos academicos. Uso de LLMs voltadas para a área cientifica com apoio para estudos da literatura, levantamento de informações a partir da literatura científica, Identificar, selecionar e extrair as informações relevantes de um conjunto de vários ou muitos artigos, sem ter que fazer o esforço de ler exaustivamente cada um*
 
-
 questões que não menciona, e me parecem relevantes
 
 Q: LLMs são treinados com grandes volumes de texto, mas não têm acesso à literatura científica especializada, nem atualizada. Assim, não é possível utilizá-los diretamente para responder perguntas sobre a literatura científica. Qual a solução para isso? Passa por esse tema aqui, RAG: retrieval-augmented generation? O que sabe sobre isso? leu em algum dos artigos?
@@ -34,4 +33,6 @@ R: Acho que seria legal investigar mais a fundo, porém a priori eu pensei em ut
 
 Q: não se fala em desejo ao fazer uma proposta, fala-se em objetivos e intenções. Como vai disponibilizar uma ferramenta online open-source se ela usa um modelo que não é open-source? Além disso, em termos de tecnologia, consegue  identificar quais desafios teriam que ser tratados para disponibilizar um sistema online? não sou contra a ideia da ferramenta online, mas me parece uma questão a mais para lidar, sendo que já há muitas questões complicadas para ter um sistema funcionando, online ou não. 
 
-R: O modelo não é open source mas a ferramenta pode ser usada e distribuida gratuitamente, porém para usá-la é necessário colcoar a chave de API do usuário. Tanto é que há soluções que usam OpenAI e são disponibilizadas.
+R: O modelo não é open source mas a ferramenta pode ser usada e distribuida gratuitamente, porém para usá-la é necessário colcoar a chave de API do usuário. Tanto é que há soluções que usam OpenAI e são disponibilizadas. 
+
+Eu vejo como se a gente estivesse mundando o foco do projeto para análise de literatura cientifica
