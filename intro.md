@@ -36,3 +36,9 @@ Q: não se fala em desejo ao fazer uma proposta, fala-se em objetivos e intenç�
 R: O modelo não é open source mas a ferramenta pode ser usada e distribuida gratuitamente, porém para usá-la é necessário colcoar a chave de API do usuário. Tanto é que há soluções que usam OpenAI e são disponibilizadas. 
 
 Eu vejo como se a gente estivesse mundando o foco do projeto para análise de literatura cientifica
+
+- Comentar que o Gap no meu trablho é que as LLM geralmente são treinado com inúmeros base de dados científicos, no entanto elas sofrem com o problema do overlooking, ou seja, elas veem frequentemente os mesmos métodos que nas perguntas elas respondem de forma genérica sem aprofundamento na matéria. Desse modo, quero abordar essas questoes ao enfatizar na literatura que o pesquisador está trazendo
+
+data duplication on training can contribute to llms tendency to a generic modal answer.
+
+Atualmente um dos issues and challenges with integrating natural language chat with material science is the LLM on tendency to generate a generic or modal answer. reforca existing bias and will not recognize new aprouches or not well documented technoogies. Desse modo, esse projeto aborda essas questões ao permitir que o pesquisador insira sua literatura atual para ser examinada, com respostas partindo da LLM e focando na literatura desenvolvida.
