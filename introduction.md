@@ -22,7 +22,7 @@ Quero testar pra ver qual é melhor, uma ferramenta com poucos artigos ou uma fe
 - Meu objetivo é investigar como uma interface conversacional pode apoiar um pesquisador na área de material science e identificar as informações relevantes sobre esse tema.
 - Solução, é utilizar o estado-da-arte de interface conversacional para identificar os locais de melhor respostas nos artigos e enviar para a LLM para construção de uma resposta detalhada sobre o assunto específico utilizando os métodos do estado-da-arte
 - Meu Desejo é disponibilizar essa ferramenta online de modo open source para a comunidade cientifica.
-    
+  
 ## Estrutura do Documento
 
 Capítulo 2 - Fundamentação
