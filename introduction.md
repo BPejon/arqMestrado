@@ -1,4 +1,6 @@
-# Contexto e Motivação
+# Introdução
+
+## Contexto e Motivação
 
 - Criação cada vez maior de publicações no meio científico. Desse modo se torna dificil para os cientistas acompanharem as tendencias sem o uso de ferramentas de llm
 
@@ -8,22 +10,20 @@
 
 - Cientistas utilizam LLM para extrair informações de textos academicos. Uso de LLMs voltadas para a área cientifica com apoio para estudos da literatura, levantamento de informações a partir da literatura científica, Identificar, selecionar e extrair as informações relevantes de um conjunto de vários ou muitos artigos, sem ter que fazer o esforço de ler exaustivamente cada um
 
-
-# Problemas q quero solucionar
+## Problemas q quero solucionar
 
 - Quero solucionar de que não há um chat conversacional voltado para o cientista na área de material science. As interface de linguagem natural são amplas e genéricas, por isso há esse gap na área de NLI.
 - Quero quer o chat consiga extrair dados de imagens e tabelas para compor as respostas, visto que essa é uma dificuldade das outras LLM.   
 
 Quero testar pra ver qual é melhor, uma ferramenta com poucos artigos ou uma ferramenta com milhares de artigos.
 
-# Goals
+## Goals
 
 - Meu objetivo é investigar como uma interface conversacional pode apoiar um pesquisador na área de material science e identificar as informações relevantes sobre esse tema.
 - Solução, é utilizar o estado-da-arte de interface conversacional para identificar os locais de melhor respostas nos artigos e enviar para a LLM para construção de uma resposta detalhada sobre o assunto específico utilizando os métodos do estado-da-arte
 - Meu Desejo é disponibilizar essa ferramenta online de modo open source para a comunidade cientifica.
     
-
-# Estrutura do Documento
+## Estrutura do Documento
 
 Capítulo 2 - Fundamentação
 
@@ -32,7 +32,7 @@ Capítulo 3 - Proposta de Trabalho
 Capítulo 4(ou final do 3) - Conclusão e trabalhos a serem realizados 
 
 
-# DICAS que gostaria de ter ouvido antes:
+## DICAS que gostaria de ter ouvido antes:
 
 - Organize seu projeto antes de começar. Fazer um 1 page e 8 pages sobre o projeto para clarificar o que ele será
 - Começar a ler artigos mais cedo.  

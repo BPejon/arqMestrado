@@ -22,13 +22,12 @@ Artigos:
 - Tópico para discussão dos trabalhos relacionados a LLM voltados para material science
 - Breve introdução
 - Comentar dos trabalhos relacionados voltados para material science e explicar o gap no meu projeto é que o nem sempre a literatura que se quer analisar está atualizada. Desse modo, o usuário pode colocar sua literatura que será levada em conta para se analisada.
-- 
+-
 
 Artigos:
 
 - Material Science a perspective
 - Ainda a selecionar
-
 
 ## Natural language Interface for visualization purpose
 
@@ -36,12 +35,14 @@ Artigos:
 - Breve Introdução
 - Citar os trabalhos de visualização e algumas estratégias de como eles criam suas interfaces para facilitar o trabalho e a experiencia do usuario
 
-Artigos: 
+Artigos:
+
 - Cartolable
 - WizMap
 - Scidasynth
 
-# Ideia de tópico: ainda n tenho certeza se vou colocar ele
+## Ideia de tópico: ainda n tenho certeza se vou colocar ele
+
 ## Natural language Interface for visualization purpose
 
 - Tópico para discussão dos trabalhos relacionados a ferramentas de visualização de informações. Como visualizar informações no contexto de Material science. Quais estratégias e ferramentas são utilizadas
@@ -53,5 +54,3 @@ Artigos:
 Cartolable
 WizMap
 Scidasynth
-
-
