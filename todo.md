@@ -33,3 +33,8 @@ Quinta a tarde : Continuar no Related Works
 Sexta tarde: Voltar e ver o que precisa colocar na introdução e já introduzir tmb
 Sábado: descanso
 Domingo manha: a verificar
+
+Sexta: Atualizar o capítulo de introdução - OK
+Na vdd ta meio bagunçado, falta organizar os parágrafos, eu fui escrevendo o que queria mas n ta muito organizado
+
+Próximo: Vou atualizar o Related Works e colocar em ingles

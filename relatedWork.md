@@ -13,7 +13,6 @@ Artigos:
 - ChatPdf
 - Scispace
 - AIScientist
-- MatSciBert
 - SciDaSynth
 - RAG
 

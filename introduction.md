@@ -4,7 +4,10 @@
 
 - Criação cada vez maior de publicações no meio científico. Desse modo se torna dificil para os cientistas acompanharem as tendencias sem o uso de ferramentas de llm
 
-- Uso de API de serviços nas aplicações voltadas para os cientistas como base de muitas ferramentas no estado-da-arte
+- O principal desafio em LLM é a alucinação. Devido a diversas categorias de alucinação, a LLM tende a cofabular e inventar respostas ou não responder ao que o pesquisador pede. Desse modo, esse será um tópico abordado no projeto e implementar táticas de mitigar as alucinações e indicar os locais coretos dos documentos por meio do RAG.s
+(Sinto que é importante tocar no tema de alucinaçaõ de llm, pois é um tema recorrente nos artigos de LLM pra material science. Além disso, o RAG é uma saída eficaz para evitar confabulações.)
+
+- Outro desafio desse mestrado é que foi observado na literatura que um dos desafios de se trabalhar com LLM e ciencia de dados é que o treinamento das LLMs acabam resultando em respostas genéricas. Desse modo, este projeto busca resolver esse problema ao inserir uma literatura ao sistema e ele lebar em conta essa literatura para elaboração da resposta.
 
 - O uso de LLM e IA generativa no meio do campo científico para conseguir extrair dados de publicações, visto que hj em dia temos cada vez mais publicações científicas. Desse modo, são criadas LLM para auxiliar os pesquisadores.
 
@@ -12,7 +15,10 @@
 
 ## Problemas q quero solucionar
 
+- Quero solucionar o desafio de criar revisões de literatura automáticos criado por LLM. Serão enviados para o sistema um conjunto de documentos submetidos pelo pesquisador de ciencia de materias e a IA utilizará métodos do estado-da-arte para criar uma revisão da literatura baseado nesses documentos e no conhecimento prévio da IA.Serão utilizados ferramentas do estad-da-arte para evitar a problemática de halucinação.
+
 - Quero solucionar de que não há um chat conversacional voltado para o cientista na área de material science. As interface de linguagem natural são amplas e genéricas, por isso há esse gap na área de NLI.
+- Quero mitigar o problema da halucinação implementando estratégias do estado-da-arte para garantir que as informações emitidas pela LLM são verdadeiras, implementando o RAG, promt modelling e linkando informações emitidas aos textos correspondentes.
 - Quero quer o chat consiga extrair dados de imagens e tabelas para compor as respostas, visto que essa é uma dificuldade das outras LLM.   
 
 Quero testar pra ver qual é melhor, uma ferramenta com poucos artigos ou uma ferramenta com milhares de artigos.
