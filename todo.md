@@ -4,7 +4,6 @@
 
 - Abstract - 1 h
 - Escrever roteiro da introdução - 1h
-- Escrever Preliminary Works - 5h
 - Estruturar a Proposta - 1h
 - Escrever a proposta - 4h
 - Pegar os artigos para ler (2h)
@@ -22,6 +21,12 @@ Quinta a tarde : Continuar no Related Works
 Sexta tarde: Voltar e ver o que precisa colocar na introdução e já introduzir tmb
 Sábado: descanso
 Domingo manha: a verificar
+
+O que estou fazendo na semana
+Quarta: Escrever Preliminary Works - METADE DELE - 2H
+Quinta: Analisar em Ingles e continuar preliminary works 2:30
+Metade em ingles. Preliminary Work terminado!!!
+Sexta: Abstract, remoção de conteudo inutil, mandei pra prof
 
 Semana 23
 
