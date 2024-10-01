@@ -2,8 +2,7 @@
 
 ## Capítulo Fundamentos
 
-- Abstract - 1 h
-- Escrever roteiro da introdução - 1h
+- Escrever roteiro da introdução e mandar pra prof - 1h
 - Estruturar a Proposta - 1h
 - Escrever a proposta - 4h
 - Pegar os artigos para ler (2h)
@@ -40,3 +39,6 @@ Sexta: Atualizar o capítulo de introdução - OK
 Na vdd ta meio bagunçado, falta organizar os parágrafos, eu fui escrevendo o que queria mas n ta muito organizado
 
 Próximo: Vou atualizar o Related Works e colocar em ingles
+
+Semana dia 30
+Segunda: Ver comentários da Prof, Enviar relatório do semestre
