@@ -34,18 +34,17 @@ Atividades de Pesquisa - Resumo
 Os pontos mais importantes do semestre estão listados abaixo:
 
 - Foram finalizados todos os créditos necessários durante o primeiro semestre de 2023.
-- Realizado e aprovado exame de proficiência em inglês realizado pelo ICMC
-- Foram realizados experimentos preliminares do projeto com grandes modelos de linguage, além de início do projeto de mestrado com a transformação das documentações em embeddings.
-- Foi realizado uma análise da literatura em busca dos métodos do estado-da-arte e de como abordar o tema selecionado.
+- Realizado e aprovado exame de proficiência em inglês realizado pelo ICMC.
+- Foram realizados experimentos preliminares do projeto com grandes modelos de linguagem, além de início do projeto de mestrado com a transformação das documentações em embeddings.
+- Foi realizado uma análise da literatura em busca dos métodos utilizados do estado-da-arte em soluções similares na área de estudo.
 - Contínuação das reuniões quinzenais com a orientadora para acompanhamento do projeto
 - Início da escrita do projeto de qualificação.
 
 Atividades de Pesquisa - Cronograma 
 Fevereiro - Junho : Disciplinas 
 Junho - Julho: Revisão da literatura
-Março: Estudo e realização da prova de proficiência em inglês do ICMC
-
-
+Maio: Estudo e realização da prova de proficiência em inglês do ICMC
+Junho - Setembro: Experimentos com grandes modelos de linguagem e transformação de documentos em embeddings
 Setembro - Outubro: Escrita da Qualificação de mestrado
 Outubro - Dezembro: Continuação do projeto de mestrado
 
@@ -53,6 +52,8 @@ Outubro - Dezembro: Continuação do projeto de mestrado
 Atividades de Pesquisa - Previsão de defesa 
 31/10/2025
 
+Atividades de Pesquisa - Publicações 
 Não houve publicações de pesquisa.
 
+Atividades de Pesquisa - Participações em eventos 
 Não houve participações em eventos de pesquisa.
