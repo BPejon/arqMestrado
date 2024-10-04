@@ -5,7 +5,7 @@
 - Criação cada vez maior de publicações no meio científico. Desse modo se torna dificil para os cientistas acompanharem as tendencias sem o uso de ferramentas de llm
 
 - O principal desafio em LLM é a alucinação. Devido a diversas categorias de alucinação, a LLM tende a cofabular e inventar respostas ou não responder ao que o pesquisador pede. Desse modo, esse será um tópico abordado no projeto e implementar táticas de mitigar as alucinações e indicar os locais coretos dos documentos por meio do RAG.s
-(Sinto que é importante tocar no tema de alucinaçaõ de llm, pois é um tema recorrente nos artigos de LLM pra material science. Além disso, o RAG é uma saída eficaz para evitar confabulações.)
+(Sinto que é importante tocar no tema de alucinaçaõ de llm, pois é um tema recorrente nos artigos de LLM pra material science. Além disso, o RAG é uma saída eficaz para evitar confabulações.) 
 
 - Outro desafio desse mestrado é que foi observado na literatura que um dos desafios de se trabalhar com LLM e ciencia de dados é que o treinamento das LLMs acabam resultando em respostas genéricas. Desse modo, este projeto busca resolver esse problema ao inserir uma literatura ao sistema e ele lebar em conta essa literatura para elaboração da resposta.
 
@@ -94,3 +94,6 @@ class, = ('Shadow, Brute')
 ?idade,
 region, = Default Rathe
 fFeatured in,
+
+Screening vai ficar a parte dos pesquisadores. O que podemos fazer são variações de promtpts.
+Não usaremos API da OpenAI, pois custou na pesquisa 500 dol e n temos esse money.
