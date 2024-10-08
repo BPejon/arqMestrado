@@ -52,8 +52,8 @@ Quinta:
  Tarde: Escrever no foda-se
  Noite: Continuar a escrita.Primeiro escreve tudo. Em seguida busca as referencias que vc quer
 Sexta:
-Manhã: Lapidar o Preliminary Work e mandar a prof revisar, mandar email pra prof comentando do nosso caminho feliz. Continuar escrevendo o caminho feliz em portuges.
-Tarde: mandar pra prof a tarde.
+Manhã: Lapidar o Preliminary Work e mandar a prof revisar, mandar email pra prof comentando do nosso caminho feliz. Continuar escrevendo o caminho feliz em portuges. -OK
+Tarde: mandar pra prof a tarde. - OK
 Noite: Continuar escrevendo o capítulo de Proposta em portuges e no que vier.
 
 Perguntar pra prof, nossa solução vai focar na geração de texto, correto?
@@ -65,7 +65,7 @@ Eu elaborei o esquema de como seria mais ou menos o caminho ideal da aplicação
 Eu pensei nesse esquema:
 1- O pequisador já deve fazer as research question, create a search strategy for a review, screening of literature
 2- O pesquisador insere no sistema dados sobre seus objetivos em um formulário elaborado pelo sistema para fazer parte do promt de extração de dados.
-2.5- O pesquisador insere sua bibliografia em bibtex
+2.5- O pesquisador insere sua bibliografia em bibtex ou o pdf dos artigos caso já possua.
 3- O sistema irá embusca dos full text por meio do Scholar API.
 4- O sistema irá gerar embedding de todos os textos e realizar Text Preprocessing para retirar ruido e transcrever as imagens em texto.
 5- O sistema ira fazer uma triagem dos estudos para identificar os artigos mais relevantes (por exemplo se a bibliografica tivar mais de 100 estudos e pegarmos apenas os 20 mais relevantes)
@@ -77,3 +77,12 @@ Eu pensei nesse esquema:
 Uma dúvida, a gente vai fazer focar nas revisões que o Chu mandou correto, que é mais um survey?
 Pq eu li algumas revisões da literatura e eles fazem tabelas com as informações de cada artigo na pesquisa.
 Eu vi só 1 fazendo isso. A maioria não usa tabelas.
+
+
+Criar formas de salvar os embeddings e inseri-los novamente em uma nova iteração.
+
+Semana 7
+Segunda:
+Tarde: Assistir qualificação de mestrado, Ajustes na introdução, ajustes no trabalhos prévios
+Terça: Manha, melhorar preliminary works
+Tarde: finalizar, preliminary works,Imagem e reunião com prof

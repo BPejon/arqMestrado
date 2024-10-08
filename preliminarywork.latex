@@ -1,0 +1,54 @@
+\section{Preliminary Investigations}
+
+This section describes some preliminary investigations conducted along the first year of this masters project. An initial step involved using the OpenAI API to generate an initial text for a literature review on the topic of Langmuir-Blodgett Films. Furthermore, experiments were conducted on vetorizing a small collection of scientific papers on the topic provided as PDF files, for later use with RAG strategies. 
+%This section focus on the preliminary work conducted during the first year of this master dissertation. The initial phase involved generating a literature review on Langmuir-Blodgett Films using OpenAI API. Furthermore, experiments were conducted vetorizing the PDF collection for use with RAG strategies in the future. 
+
+\subsection{LLM Experiments}
+
+Initially, several configurations were investigated on using an LLM to automatically generate a literature review on a particular materials science topic, namely Langmuir-Blodgett Films. The \textbf{gpt-3.5-turbo} model, provided by OpenAI via their API, was selected for these experiments due to its usability and its accuracy, since this model is utilized by state-of-the-art tools such as ChatPDF \cite{chat_pdf_article} and Scispace \cite{scispace_article}. 
+%Initially, several experiments were elaborated using LLM to generate an automatic literature review of a materials science subject on Langmuir-Blodgett Films. The \textbf{gpt-3.5-turbo} model, provided by OpenAI via their API, was selected for these experiments due to its usability and its accuracy, since this model is utilized by state-of-the-art tools such as ChatPDF \cite{chat_pdf_article} and Scispace \cite{scispace_article}. These examples illustrate the model's capability in handling complex tasks, affirming its suitability for this initial experiment phase.
+One key advantage of using an API-based LLM is the ease of use, requiring no additional setup. This allowed for rapid execution of the experiments.
+
+%One key advantage of using an API-based LLM is the ease of implementation, requiring no additional setup. This allowed for rapid execution of the experiments, streamlining the research process and eliminating time-consuming configuration steps associated with other LLMs.
+
+Four experiments were conducted, outlined as follows: 
+\begin{enumerate} 
+    \item Perform a literature analysis of Langmuir-Blodgett Films without providing any context. 
+    \item Perform a literature analysis on Langmuir-Blodgett Films without providing any context and guided by six research questions. 
+    \item Perform a literature analysis of Langmuir-Blodgett Films with one study into the LLM and guided by six research questions. 
+    \item Perform a literature analysis of Langmuir-Blodgett Films with four studies as context and guided by six research questions. 
+\end{enumerate}
+
+A comprehensive report on the results is available here: <link>
+
+%\subsubsection{Conclusions}
+
+The texts obtained in the experiments suggest the model can generate text on a complex topic in materials science without introducing errors. 
+%The experiments demonstrated that the LLM possesses a robust understanding of complex materials science topics. 
+It was able to generate coherent texts on Langmuir-Blodgett Films, effectively summarizing the literature and identifying key topics, as well as potential applications.
+%It was able to generate coherent text related to Langmuir-Blodgett Films, effectively summarizing the literature and identifying key areas of knowledge, as well as potential applications.
+
+Moreover, the experiments indicated that providing the LLM with plain text extracted from PDF enhanced the quality of its responses, producing more detailed and contextually accurate outputs. This observation suggests that the quality and context of input data significantly affect the output, a finding that will be crucial for future research applications.
+
+However, some limitations were observed. In certain iterations, the LLM failed to address all the questions asked, indicating the need for an integrated self-reflection mechanism to improve response accuracy and consistency.
+
+In the fourth experiment, which involved processing multiple articles, it was not possible to submit all the plain text of the 4 articles in a single query due to the \textbf{gpt3.5-turbo} model token limitation of 16850 tokens per request. To overcome this issue, the content was split into several smaller requests and submitted to the machine learning model. However, each submission resulted in an immediate LLM response, and combining all responses in one article led to a redundant text and duplicated information. In summary, dividing the query in multiple request with different part of the studies resulted in fragmented and repetitive text, highlighting the inefficiency of this method for large datasets.
+
+These early experiments suggest the importance of using RAG techniques on the task, and vectorizing the contents of the scientific papers (PDF files) before submitting the task prompts to the LLM. 
+%To address these limitations, future work will focus on vectoring PDFs before submitting them to the LLM. Similar to the approach outlined by \cite{wang_scidasynth_2024}. The system will be using RAG techniques to convert information from text, images, and tables into embeddings. These chunk of vectors will then used to model prompts that allow the LLM to provide more precise and contextually answers.
+
+%\subsection{PDF Collection embedding}
+\subsection{Embedding scientific papers}
+
+To effectively apply a RAG strategy using a user-provided  collection of scientific papers in prompts for the LLM, it is crucial to first transform the text and its associated information into embeddings. This can be accomplished using OpenAI's \textbf{text-small-3} embedding model, which encodes textual data into a standardized vector representation with 1,536 dimensions, enabling efficient processing and analysis by the LLM \cite{openai_embedding_doc}.
+%To effectively apply the Retrieval Augmented Generation (RAG) strategy using a user's collection of studies in prompts for the LLM, it is crucial to first transform the text and its associated information into embeddings. This was accomplished using OpenAI's \textbf{text-small-3} embedding model. The model encodes textual data into a standardized vector representation with 1536 dimensions, enabling efficient processing and analysis by the LLM \cite{openai_embedding_doc}.
+
+The initial phase of system development focus on the implementation of the text embedding process. First, the text was extracted from the PDF collection using the \textbf{pypdf} library \cite{pypdf_website}. After extraction, the plain text was transformed into tokens using the \textbf{tiktoken} library \cite{tiktoken_website}, dividing the content into blocks of 400 tokens for this initial experiment. These token blocks were subsequently converted back into raw text and then vectorized using the \textbf{text-small-3} model.
+
+To optimize both data storage and retrieval for future analysis, the resulting embeddings were saved in a structured \textbf{.csv} file. The first column of the file contains the original text segments, while the second column stores the corresponding embedding vectors. This approach ensures that the vectorized data can be efficiently retrieved and processed in subsequent analyses.
+
+This was the first step in the process of implementing RAG and utilizing various studies to enhance the LLM's prompt, marking the beginning of the development of an automatic literature review generation project by inputting multiple studies on the desired materials science topic.
+
+The code and preliminary works can be accessed through the open GitHub repository at the following URL: www.github.com/url.
+
+The initial experiments with LLMs were conducted using \textit{chatgpt3.5-turob} machine learning model from OpenAI API. However, relying on a paid LLM can become expensive over the course of the project. The study conducted by \cite{scherbakov_emergence_llm} highlighted that their literature review assisted with OpenAI Azure platform for \textit{GPT-4o} model costed approximately 500 dollars. Given the expense associated with this technology, the decision has been made to opt for a free, open-access LLM for this system. This choice ensures that any researcher will be able to use the system for free, promoting accessibility and reducing financial barriers to research.
