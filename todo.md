@@ -2,16 +2,15 @@
 
 ## Capítulo Fundamentos
 
-- Concluir introdução - 2h (vou fazer dps da proposta)
-- Escrever roteiro da introdução e mandar pra prof - 1h
-- Estruturar a Proposta - 1h
-- Escrever a proposta - 4h
-- Pegar os artigos para ler (2h)
-  - Pesquisar por arquivos de geração de texto utilizando LLM
-  - Pesquisar por artigo de revisão de geração de texto por LLM
-  - Ler os artigos e entender como eles fazem 2h
+Finalizei Cronograma - OK
+Finalizar Capítulo de introdução
+Mandar a prof revisar ambos os capítulos acima
+Revisão da Prof no previous Work
+Revisão da Prof metodologia
+Escrita do Related Works
+-2 Capítulos
 
-- Reorgazinar cronograma(fazer por ultimo) - 
+(Ideia: Colocar visualização de documentos -> Dai colocar UMAP e PCA)
 
 ## Cronograma
 
@@ -86,3 +85,11 @@ Segunda:
 Tarde: Assistir qualificação de mestrado, Ajustes na introdução, ajustes no trabalhos prévios
 Terça: Manha, melhorar preliminary works
 Tarde: finalizar, preliminary works,Imagem e reunião com prof
+
+Semana 20:
+Domingo: Finalizei Cronograma - OK
+Finalizar Capítulo de introdução
+
+Mandar a prof revisar ambos os capítulos acima
+Revisão da Prof no previous Work
+Revisão da Prof metodologia
