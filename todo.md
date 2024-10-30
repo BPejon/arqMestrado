@@ -2,14 +2,12 @@
 
 ## Capítulo Fundamentos
 
-Finalizar Capítulo de introdução e mandar pra prog
-Escrita do Related Works
-Escrita capitulo Metodologia
-Reescrita previous
-Reescrita proposta
--2 Capítulos
-
+Refazer a introdução
 Finalizei Cronograma (ajustes no final) - OK
+
+
+Refazer a imagem
+
 (Ideia: Colocar visualização de documentos -> Dai colocar UMAP e PCA) -> Deixa pra depois
 
 ## Cronograma

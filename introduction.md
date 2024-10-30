@@ -22,7 +22,6 @@ Além disso, as bases de dados das LLMs são desatualizadas com as informações
 (Vou ter q pesquisar ferramentas de geração de texto na arae de ciencias de materiais)
 -AI Scientist
 
-- Quero solucionar de que não há um chat conversacional voltado para o cientista na área de material science. As interface de linguagem natural são amplas e genéricas, por isso há esse gap na área de NLI.
 - Quero mitigar o problema da halucinação implementando estratégias do estado-da-arte para garantir que as informações emitidas pela LLM são verdadeiras, implementando o RAG, promt modelling e linkando informações emitidas aos textos correspondentes.
 - Quero quer o chat consiga extrair dados de imagens e tabelas para compor as respostas, visto que essa é uma dificuldade das outras LLM.   
 

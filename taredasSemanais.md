@@ -60,3 +60,15 @@ Manhã: Lapidar o Preliminary Work e mandar a prof revisar, mandar email pra pro
 Tarde: mandar pra prof a tarde. - OK
 Noite: Continuar escrevendo o capítulo de Proposta em portuges e no que vier.
 
+dia 27:
+Descrição imagens
+Melhorar texto e ingles no Related Works
+
+dia 28:
+Promp no Fundalmentals
+Fine-tuning fundamentals
+imagens no fundamentals
+Reescrita do RAG fundamentals
+
+
+
